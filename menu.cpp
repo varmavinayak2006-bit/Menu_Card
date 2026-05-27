@@ -43,7 +43,7 @@ int main ()
     cout<<"=================================================================================="<<endl;
     cout<<"=================================================================================="<<endl;
     cout<<"=================================================================================="<<endl;
-    cout<<"Plesae place your order as CHOICE for 1-7 and SUB CHOICE for a-c as per the AVAILABILITY";
+    cout<<"Plesae place your order as CHOICE for 1-7 and SUB CHOICE for a-c as per the AVAILABILITY"<<endl;
     do {    
         char sub_choice ;
         int choice ;
@@ -172,6 +172,9 @@ int main ()
                     cout<<"INCORRECT INPUT\n";
                     break ;
                  }
+                 break ;
+                 default :
+                 cout<<"INCORRECT INPUT\n";
                  break ;
             }
             cout<<"FOR NEXT OREDER PLEASE ENTRY 'Y' OR ELSE 'N' : "<<endl;
